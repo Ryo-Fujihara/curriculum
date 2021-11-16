@@ -1,12 +1,12 @@
+#wrapper{
+    width: 400px;
+    margin: 0 auto;
+}
+
 .clearfix::after { 
     content: '';
     display: block; 
     clear: both;
-}
-
-#wrapper{
-    width: 400px;
-    margin: 0 auto;
 }
 
 .header{
@@ -16,40 +16,39 @@
 
 .headerright{
     background-color: white;
+    width: 160px;
+    height: 60px;
     float: right;
-    margin: 20px 20px;
-    padding: 5px 20px;
+    position: relative;
+    top: 20px;
+    right: 20px;
 }
 
 .headerright1{
     width: 40px;
     height: 40px;
     background-color: #a9004b;
-    float: right;
     position: relative;
-    top: 0px;
-    right: 90px;
-
+    top: 10px;
+    left: 10px;
 }
 
 .headerright2{
     width: 40px;
     height: 40px;
     background-color: #a9004b;
-    float: right;
-    position: relative;
-    top: 0px;
-    right: 1px;
+    position: absolute;
+    top: 10px;
+    left: 60px;
 }
 
 .headerright3{
     width: 40px;
     height: 40px;
     background-color: #a9004b;
-    float: right;
-    position: relative;
-    top: 0;
-    left: 90px;
+    position: absolute;
+    top: 10px;
+    left: 110px;
 }
 
 .left{
@@ -70,31 +69,34 @@
     width: 140px;
     height: 40px;
     background-color: #ff863f;
+    float: left;
     border: solid 5px white;
     position: relative;
     top: 40px;
-    left: 50px;
-}   
+    left: 40px;
+}
 
 .right2{
     width: 140px;
     height: 40px;
     background-color: #ff863f;
+    float: left;
     border: solid 5px white;
     position: relative;
-    bottom: -50px;
-    left: 50px;
-}    
+    top: 50px;
+    left: 40px;
+}
 
 .right3{
     width: 140px;
     height: 40px;
     background-color: #ff863f;
+    float: left;
     border: solid 5px white;
     position: relative;
-    bottom: -60px;
-    left: 50px;
-} 
+    top: 60px;
+    left: 40px;
+}
 
 .footer{
     height: 100px;
